@@ -27,11 +27,10 @@ export class Faction {
     }
 
     showTheBiggestBriber (){
-        const briebers = this.listOfDeputs.sort( (el1: Deputy, el2:Deputy) => {
+        const [brieber] = this.listOfDeputs.sort( (el1: Deputy, el2:Deputy) => {
             return el2.sum_of_bribe - el1.sum_of_bribe
         })
-        briebers.length = 1;
-        console.log(briebers)
+        console.log(brieber)
     }
 
     showAllDeputs(){
