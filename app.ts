@@ -21,14 +21,14 @@ firstFaction.addDeputy(Ostap);
 
 // firstFaction.showAllDeputs();
 // firstFaction.deleteDeputy(Orest);
-// firstFaction.showTheBiggestBriber()
+firstFaction.showTheBiggestBriber()
 // firstFaction.showSumOfBribes();
 
 secondFaction.addDeputy(Vanya);
 secondFaction.addDeputy(Katya);
 // secondFaction.deleteAllDeputs();
 secondFaction.deleteAllBribers();
-console.log(secondFaction);
+// console.log(secondFaction);
 
 
 const verkhovnaRadaOfFactions = new VerkhovnaRada( []);
